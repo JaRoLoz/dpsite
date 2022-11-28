@@ -56,7 +56,7 @@
     a:hover {
         border: 2px solid rgba(255, 255, 255, 0.87);
         padding: 3px;
-        width: 6rem;
+        width: 7rem;
         display: flex;
         flex-direction: columns;
         justify-content: center;
