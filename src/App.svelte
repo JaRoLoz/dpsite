@@ -4,15 +4,20 @@
     import VisitorMap from "./components/VisitorMap.svelte";
     import Clock from "./components/Clock.svelte";
     import routes from "./routes";
+    $: innerWidth = 0;
 </script>
+
+<svelte:window bind:innerWidth/>
 
 <Topbar />
 <div id="page-content">
     <div><Router {routes}/></div>
-    <div id="about-content">
-        <Clock />
-        <VisitorMap />
-    </div>
+    {#if innerWidth > 700}
+        <div id="about-content">
+            <Clock />
+            <VisitorMap />
+        </div>
+    {/if}
 </div>
 
 <style>
