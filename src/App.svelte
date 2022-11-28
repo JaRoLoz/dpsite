@@ -1,19 +1,33 @@
 <script lang="ts">
+    import Router from "svelte-spa-router";
     import Topbar from "./components/Topbar.svelte";
+    import VisitorMap from "./components/VisitorMap.svelte";
+    import Clock from "./components/Clock.svelte";
+    import routes from "./routes";
 </script>
 
 <Topbar />
 <div id="page-content">
-    <div>r</div>
-    <div id="about-content">r</div>
+    <div><Router {routes}/></div>
+    <div id="about-content">
+        <Clock />
+        <VisitorMap />
+    </div>
 </div>
 
 <style>
     #page-content {
-
+        display: grid;
+        grid-template-columns: 1fr 20rem;
+        min-height: calc(100vh - 6rem - 10px);
     }
+
     #about-content {
-        width: 20rem;
-        background-color: aqua;
+        background-color: #4a4a4a;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
     }
 </style>

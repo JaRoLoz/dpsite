@@ -1,15 +1,10 @@
 <script>
-
+    import VisitCounter from "./VisitCounter.svelte";
 </script>
 
 <div>
     <div id="top-info">
-        <div id="visit-counter">
-            <span>6</span>
-            <span>9</span>
-            <span>6</span>
-            <span>9</span>
-        </div>
+        <VisitCounter />
         <div>
             <h1><span>Web 2.0</span></h1>
         </div>
@@ -41,23 +36,6 @@
         place-items: center;
         min-height: 4rem;
     }   
-
-    #visit-counter {
-        display: flex;
-        align-items: center;
-        font-size: 1.4rem;
-        border: 2px solid rgba(255, 255, 255, 0.87);
-        border-radius: 10px;
-    }
-
-    #visit-counter > span {
-        padding: 2px;
-        border-left: 2px solid rgba(255, 255, 255, 0.87);
-    }
-
-    #visit-counter > span:first-child {
-        border: none;
-    }
 
     #top-link {
         min-height: 2rem;
