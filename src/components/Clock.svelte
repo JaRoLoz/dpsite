@@ -65,7 +65,7 @@
 	</g>
 </svg>
 
-<style>
+<style lang="postcss">
 	svg {
 		height: 18rem;
 	}

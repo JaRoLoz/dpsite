@@ -16,7 +16,7 @@
     </div>
 </div>
 
-<style>
+<style lang="postcss">
     h1 {
         font-size: 35px;
     }

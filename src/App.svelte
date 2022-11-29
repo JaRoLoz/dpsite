@@ -20,7 +20,7 @@
     {/if}
 </div>
 
-<style>
+<style lang="postcss">
     #page-content {
         display: grid;
         grid-template-columns: 1fr 20rem;
