@@ -5,9 +5,7 @@
 <div>
     <div id="top-info">
         <VisitCounter />
-        <div>
-            <h1><span>Web 2.0</span></h1>
-        </div>
+        <h1><span>Web 2.0</span></h1>
     </div>
     <div id="top-link">
         <a href="#/"><span>Inicio</span></a>
@@ -50,16 +48,18 @@
         border-radius: 10px;
         color:rgba(255, 255, 255, 0.87);
         border: none;
-        transition: .3s;
+        transition: 1s;
     }
 
     a:hover {
-        border: 2px solid rgba(255, 255, 255, 0.87);
-        padding: 3px;
-        width: 7rem;
+        box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.87);
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 7rem;
+        padding-right: 7rem;
         display: flex;
         flex-direction: columns;
         justify-content: center;
-        transition: .3s;
+        transition: 1s;
     }
 </style>
