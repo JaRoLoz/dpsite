@@ -55,8 +55,8 @@
         box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.87);
         padding-top: 3px;
         padding-bottom: 3px;
-        padding-left: 7rem;
-        padding-right: 7rem;
+        padding-left: 10vw;
+        padding-right: 10vw;
         display: flex;
         flex-direction: columns;
         justify-content: center;
