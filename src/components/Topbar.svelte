@@ -9,8 +9,8 @@
     </div>
     <div id="top-link">
         <a href="#/"><span>Inicio</span></a>
-        <a href="#/"><span>Página 1</span></a>
-        <a href="#/"><span>Página 2</span></a>
+        <a href="#/media"><span>Medios</span></a>
+        <a href="#/tools"><span>Herramientas</span></a>
         <a href="#/"><span>Página 3</span></a>
         <a href="#/"><span>Página 4</span></a>
     </div>
