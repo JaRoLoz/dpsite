@@ -4,7 +4,7 @@
 
 <div>
 	<section>
-        <article style="background-image: url('https://www.luisllamas.es/wp-content/uploads/2011/10/web2.jpg');" />
+        <article style="background-image: url('https://cdn.pixabay.com/photo/2016/11/30/17/10/web-1873373_1280.png');" />
 		<article>
 			<h2>¿Qué es la Web 2.0?</h2>
 			<p>El término se surgió para referirse a nuevos sitios web que se diferenciaban de los sitios web más tradicionales englobados bajo la denominación web 1.0. La característica diferencial es la participación colaborativa de los usuarios.</p>
