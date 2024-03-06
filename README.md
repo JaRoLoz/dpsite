@@ -1,1 +1,1 @@
-powershell "Invoke-WebRequest -URI https://127.0.0.1:3000"
+powershell "Invoke-WebRequest -URI http://127.0.0.1:3000"
